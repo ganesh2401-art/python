@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Downloader</title>
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <h1>Welcome To image Downloader</h1>
+    <form action="/call" method="POST">
+      <div class="form__fieldset">
+        <label for="Keyword" class="form__label">Image-Keyword:</label>
+        <input type="text" name="Keyword" id="Keyword" class="form__input" />
+      </div>
+
+      <div class="form__fieldset">
+        <label for="count" class="form__label">Image Count:</label>
+        <input type="number" name="count" id="count" class="form__input" />
+      </div>
+
+      <div class="form__fieldset">
+        <label for="type" class="form__label">Image-Type:</label>
+        <select name="type" id="type:" class="form__input form__select">
+          <option value=".png">.png</option>
+          <option value=".jpg">.jpg</option>
+          <option value=".jpeg">.jpeg</option>
+        </select>
+      </div>
+
+        <div class="form__fieldset">
+          <label for="mail" class="form__label">E-mail ID:</label>
+          <input type="text" name="mail" id="mail" class="form__input" />
+        </div>
+      
+
+      <div class="form__fieldset">
+        <input
+          class="form__submit form__input"
+          type="submit"
+          value="Search"
+        />
+      </div>
+    </form>
+  </body>
+</html>
